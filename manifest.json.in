@@ -1,0 +1,16 @@
+{
+    "name": "habitica.bhdouglass",
+    "description": "Unofficial webapp for Habitica",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Habitica",
+    "hooks": {
+        "habitica": {
+            "apparmor": "habitica.apparmor",
+            "desktop":  "habitica.desktop",
+            "urls": "habitica.url-dispatcher"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Brian Douglass <bhdouglass@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}

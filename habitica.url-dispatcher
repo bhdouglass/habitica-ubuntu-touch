@@ -1,0 +1,10 @@
+[
+    {
+        "protocol": "https",
+        "domain-suffix": "habitica.com"
+    },
+    {
+        "protocol": "http",
+        "domain-suffix": "habitica.com"
+    },
+]
